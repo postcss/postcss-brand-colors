@@ -10,7 +10,8 @@
         "url":  "https://github.com/postcss/postcss-brand-colors.git"
     },
     "dependencies": {
-        "brand-colors": "~0.3.0"
+        "brand-colors": "~0.3.0",
+        "postcss":      "^4.0.3"
     },
     "devDependencies": {
         "jshint-stylish": "1.0.0",
