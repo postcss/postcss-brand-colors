@@ -1,28 +1,23 @@
-# PostCSS Size [![Build Status](https://travis-ci.org/postcss/postcss-size.svg)](https://travis-ci.org/postcss/postcss-size)
+# PostCSS Brand Colors [![Build Status](https://travis-ci.org/postcss/postcss-brand-colors.svg)](https://travis-ci.org/postcss/postcss-brand-colors)
 
 <img align="right" width="135" height="95" src="http://postcss.github.io/postcss/logo-leftp.png" title="Philosopher’s stone, logo of PostCSS">
 
-[PostCSS] plugin for `size` shortcut to set `width` and `height` properties.
+[PostCSS] plugin to insert branding colors of all the major companies.
 
-[PostCSS]: https://github.com/postcss/postcss
+It takes colors from [brand-colors] package.
+
+[brand-colors]: https://github.com/reimertz/brand-colors
+[PostCSS]:      https://github.com/postcss/postcss
 
 ```css
-.two {
-    size: 20px 10px;
-}
-.one {
-    size: 10px;
+.twitter-button {
+    background: twitter-color;
 }
 ```
 
 ```css
-.two {
-    width: 20px;
-    height: 10px;
-}
-.one {
-    width: 10px;
-    height: 10px;
+.twitter-button {
+    background: #55acee;
 }
 ```
 
