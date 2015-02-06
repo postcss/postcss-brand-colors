@@ -1,6 +1,6 @@
 var brands = require('brand-colors').getAll();
 
-var colors = { }
+var colors = { };
 for ( var i = 0; i < brands.length; i++ ) {
     colors[ brands[i].name ] = brands[i].color;
 }
