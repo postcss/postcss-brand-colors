@@ -21,10 +21,14 @@ It takes colors from [brand-colors] package.
 }
 ```
 
-## Usage
-
+## Install
 ```js
-postcss([ require('postcss-size') ])
+npm install postcss-brand-colors
+```
+
+## Usage
+```js
+postcss([ require('postcss-brand-colors')])
 ```
 
 See [PostCSS] docs for examples for your environment.
