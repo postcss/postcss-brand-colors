@@ -28,7 +28,7 @@ It takes colors from [brand-colors] package.
 ## Usage
 
 ```js
-postcss([ require('postcss-brand-colors')])
+postcss([ require('postcss-brand-colors') ])
 ```
 
 See [PostCSS] docs for examples for your environment.
