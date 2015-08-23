@@ -13,6 +13,10 @@ describe('postcss-brand-colors', function () {
         test('a { color: twitter-color }', 'a { color: #55acee }');
     });
 
+    it('does not replace unknown name', function () {
+        test('a { color: nobody-color }', 'a { color: nobody-color }');
+    });
+
     it('knows brands with difficult name', function () {
         test('a { color: paypal-dark-2-color }', 'a { color: #3b7bbf }');
     });
