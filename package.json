@@ -1,26 +1,34 @@
 {
-    "name": "postcss-brand-colors",
-    "version": "0.2.0",
-    "description": "PostCSS plugin to insert branding colors of all the major companies",
-    "keywords": ["postcss", "css", "postcss-plugin", "branding", "brand colors", "brand-colors", "colors"],
-    "author": "Andrey Sitnik <andrey@sitnik.ru>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url":  "https://github.com/postcss/postcss-brand-colors.git"
-    },
-    "dependencies": {
-        "brand-colors": "^0.4.0",
-        "postcss":      "^4.1.8"
-    },
-    "devDependencies": {
-        "gulp-eslint": "0.11.1",
-        "gulp-mocha":  "2.0.1",
-        "mocha":       "2.2.4",
-        "chai":        "2.3.0",
-        "gulp":        "3.8.11"
-    },
-    "scripts": {
-        "test": "gulp"
-    }
+  "name": "postcss-brand-colors",
+  "version": "0.2.0",
+  "description": "PostCSS plugin to insert branding colors of all the major companies",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "branding",
+    "brand colors",
+    "brand-colors",
+    "colors"
+  ],
+  "author": "Andrey Sitnik <andrey@sitnik.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/postcss/postcss-brand-colors.git"
+  },
+  "dependencies": {
+    "brand-colors": "^0.4.0",
+    "postcss":      "^4.1.8"
+  },
+  "devDependencies": {
+    "gulp-eslint": "0.11.1",
+    "gulp-mocha":  "2.0.1",
+    "mocha":       "2.2.4",
+    "chai":        "2.3.0",
+    "gulp":        "3.8.11"
+  },
+  "scripts": {
+    "test": "gulp"
+  }
 }
