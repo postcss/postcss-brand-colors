@@ -1,3 +1,6 @@
+# Change Log
+This project adheres to [Semantic Versioning](http://semver.org/).
+
 ## 0.4
 * Use Brand Colors 1.x.
 
