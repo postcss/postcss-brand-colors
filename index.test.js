@@ -9,19 +9,19 @@ function run(input, output) {
     });
 }
 
-it('does something', () => {
+it('replaces brand color', () => {
     return run('a { color: twitter-color }', 'a { color: #55acee }');
 });
 
-it('does something', () => {
+it('ignores unknown colors', () => {
     return run('a { color: nobody-color }', 'a { color: nobody-color }');
 });
 
-it('does something', () => {
+it('supports extra colors', () => {
     return run('a { color: paypal-dark-2-color }', 'a { color: #3b7bbf }');
 });
 
-it('does something', () => {
+it('supports functions', () => {
     return run('a { background: linear-gradient(ebay-color, ebay-2-color) }',
                'a { background: linear-gradient(#e53238, #0064d2) }');
 });
