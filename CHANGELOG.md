@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0
+* Use PostCSS 6.0.
+
 ## 0.4
 * Use Brand Colors 1.x.
 
