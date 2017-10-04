@@ -10,7 +10,7 @@ function run(input, output) {
 }
 
 it('replaces brand color', () => {
-    return run('a { color: twitter-color }', 'a { color: #55acee }');
+    return run('a { color: twitter-color }', 'a { color: #1da1f2 }');
 });
 
 it('ignores unknown colors', () => {
@@ -22,6 +22,8 @@ it('supports extra colors', () => {
 });
 
 it('supports functions', () => {
-    return run('a { background: linear-gradient(ebay-color, ebay-2-color) }',
-               'a { background: linear-gradient(#e53238, #0064d2) }');
+    return run(
+        'a { background: linear-gradient(ebay-color, ebay-2-color) }',
+        'a { background: linear-gradient(#e53238, #0064d2) }'
+    );
 });
