@@ -1,6 +1,6 @@
 {
   "name": "postcss-brand-colors",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "PostCSS plugin to insert branding colors of all the major companies",
   "keywords": [
     "postcss",
