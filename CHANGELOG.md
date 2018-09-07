@@ -1,6 +1,10 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 3.0
+* Use PostCSS 7.
+* Remove Node.js 4 support.
+
 ## 2.0
 * Use Brand Colors 2.x.
 
